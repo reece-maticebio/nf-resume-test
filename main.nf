@@ -17,7 +17,7 @@
  * a param toggle could not be flipped between attempts.
  */
 
-nextflow.enable.dsl2 = true
+// DSL2 is the default on Nextflow 25.10; no `nextflow.enable.dsl` line needed.
 
 // Fixed sentinel path (identical on the original run and its resume, so GATE's
 // hash never changes). Overridable but the control plane passes no params here.
